@@ -435,7 +435,7 @@ def message_handler(m):
         sum = float(match.group(0))
         if sum > user['balance']:
             return bot.send_message(m.from_user.id, string('wrong_data'))
-        print(wallet.send(pid="99", recipient='+79636424423', amount=1.11, comment='Привет!'))
+        #print(wallet.send(pid="99", recipient='+79636424423', amount=1.11, comment='Привет!'))
         # print(wallet.send(99, recipient=user['mode_param'], amount=sum, comment=string('withdraw_comment').format(my_username)))
         db.users.update_one({'id': user['id']}, {'$set': {'mode': 'none'}})
     elif user['mode'] == 'ordering_bot':
