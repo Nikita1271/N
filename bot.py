@@ -21,7 +21,7 @@ bot = telebot.TeleBot(os.environ['shop'])
 x=os.environ['shop']
 my_username = bot.get_me().username
 print('@'+my_username)
-# client = os.environ['database'
+client = os.environ['database']
 z=os.environ['mongo']
 db = MongoClient(client).DevelopingRoom_Bot
 
