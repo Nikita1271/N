@@ -15,7 +15,7 @@ import math
 import threading
 from string import ascii_letters, digits
 
-y=os.environ['qiwi']
+wallet=os.environ['qiwi']
 
 bot = telebot.TeleBot(os.environ['shop'])
 x=os.environ['shop']
