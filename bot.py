@@ -17,11 +17,11 @@ from string import ascii_letters, digits
 y=os.environ('qiwi')
 
 # bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
-x=os.environ('botshop')
+z=os.environ('botshop')
 my_username = bot.get_me().username
 print('@'+my_username)
 # client = os.environ['database'
-z=os.environ('mongo')
+client = 'mongodb://bot:TcoNDsmcxy@163.172.128.106:27017/DevelopingRoom_Bot'
 db = MongoClient(client).DevelopingRoom_Bot
 
 main_admin = 687806733
