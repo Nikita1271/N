@@ -14,10 +14,10 @@ import math
 import threading
 from string import ascii_letters, digits
 
-y=os.environ('qiwi')
+wallet = pyqiwi.Wallet(token='3995e9e719ad43eb5ddaca03a2dc3de8', number='380672038493')
 
 # bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
-z=os.environ('botshop')
+bot = telebot.TeleBot('707423239:AAHrnvrNWRilfdCyA3oUDyh72Wfgs659Azs')
 my_username = bot.get_me().username
 print('@'+my_username)
 # client = os.environ['database'
