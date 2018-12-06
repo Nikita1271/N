@@ -15,14 +15,14 @@ import math
 import threading
 from string import ascii_letters, digits
 
-wallet = pyqiwi.Wallet(token='3995e9e719ad43eb5ddaca03a2dc3de8', number='380672038493')
+y=os.environ('qiwi')
 
 # bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
 x=os.environ('shop')
 my_username = bot.get_me().username
 print('@'+my_username)
 # client = os.environ['database'
-client = 'mongodb://bot:TcoNDsmcxy@163.172.128.106:27017/DevelopingRoom_Bot'
+z=os.environ('mongo')
 db = MongoClient(client).DevelopingRoom_Bot
 
 main_admin = 687806733
