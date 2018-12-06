@@ -17,7 +17,7 @@ from string import ascii_letters, digits
 wallet = pyqiwi.Wallet(token='3995e9e719ad43eb5ddaca03a2dc3de8', number='380672038493')
 
 # bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
-bot = telebot.TeleBot('707423239:AAHrnvrNWRilfdCyA3oUDyh72Wfgs659Azs')
+x=os.environ('shop')
 my_username = bot.get_me().username
 print('@'+my_username)
 # client = os.environ['database'
