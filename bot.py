@@ -17,7 +17,7 @@ from string import ascii_letters, digits
 
 y=os.environ['qiwi']
 
-bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
+bot = telebot.TeleBot(os.environ['shop'])
 x=os.environ['shop']
 my_username = bot.get_me().username
 print('@'+my_username)
