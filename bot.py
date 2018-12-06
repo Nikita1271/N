@@ -5,6 +5,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.apihelper import ApiException
 from pymongo import MongoClient
 import pyqiwi
+import os
 
 from random import randint, choice
 from time import time, sleep
